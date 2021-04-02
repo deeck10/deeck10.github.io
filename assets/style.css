@@ -23,3 +23,29 @@ h1 {
     padding: 15px;
     margin-top: 10px;
 }
+
+nav {
+    background-color: aquamarine;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+nav a:hover {
+    font-weight: lighter;
+}
+
+nav li {
+    display: inline;
+}
