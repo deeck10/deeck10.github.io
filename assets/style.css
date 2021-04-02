@@ -1,7 +1,7 @@
 footer {
     padding: 20px;
     color: white;
-    background-color: aqua;
+    background-color: aliceblue;
     text-align: center;
     font-weight: bold;
 }
@@ -16,7 +16,7 @@ h1 {
 .jumbotron {
     font-size: 20px;
     padding: 60px;
-    background-color: aquamarine;
+    background-color: aliceblue;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
