@@ -1,0 +1,1 @@
+console.log("File JavaScript ini untuk memenuhi kriteria penilaian submission Belajar Dasar Pemrograman Web")
