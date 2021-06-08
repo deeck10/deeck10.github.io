@@ -46,7 +46,7 @@ main {
 
 .flexbox-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: initial;
 }
 
 .box {
