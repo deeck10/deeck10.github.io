@@ -40,9 +40,13 @@ main {
     border-radius: 5px;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .flexbox-container {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .box {
@@ -131,7 +135,7 @@ footer {
     .header-image,
     .profile-image,
     .featured-image {
-        width: 240px;
+        width: 100%;
         padding: 0;
     }
 }
