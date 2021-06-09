@@ -9,13 +9,11 @@ h1 {
     padding: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
-    position: relative;
 }
 
 main {
     padding: 20px;
     overflow: auto;
-    text-align: justify;
 }
 
 .jumbotron {
@@ -26,18 +24,16 @@ main {
     border-radius: 5px;
     padding: 5px;
     margin-top: 10px;
-    position: relative;
 }
 
 .header-image {
-    position: relative;
-    width: 130px;
-    height: 130px;
+    width: 200px;
     padding: 5px;
     margin-top: 15px;
     margin-left: 2px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    object-fit: cover;
 }
 
 * {
@@ -46,12 +42,17 @@ main {
 
 .flexbox-container {
     display: flex;
-    flex-wrap: initial;
 }
 
 .box {
-    width: 50%;
+    flex-grow: 1;
     margin-left: 5px;
+    border: 1px solid black;
+}
+
+.box-article {
+    flex-grow: 2;
+    border: 1px solid black;
 }
 
 nav {
@@ -83,20 +84,13 @@ nav li {
 }
 
 .featured-image {
+    width: 200px;
     padding: 5px;
     margin-top: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 2px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    width: 410px;
-    text-align: justify;
-}
-
-.box-content {
-    width: 50%;
-    margin-left: 5px;
-    margin-bottom: 50px;
+    object-fit: cover;
 }
 
 th {
@@ -111,7 +105,6 @@ h3 {
     color: darkslategray;
 }
 .profile-image {
-    display: block;
     width: 130px;
     height: 130px;
     padding: 5px;
@@ -130,10 +123,7 @@ footer {
 
 @media screen and (max-width: 500px){
     .box,
-    .box-content,
-    .header-image,
-    .profile-image,
-    .featured-image {
+    .box-article {
         width: 100%;
         padding: 0;
     }
